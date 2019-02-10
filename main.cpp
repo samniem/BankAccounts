@@ -61,7 +61,7 @@ int main()
             cout << "Enter account number" << endl;
             cin >> accountnumber;
             customers[number].accHistory(accountnumber);
-
+            break;
         case 9:
             cout << "Enter 1 to add a new customer" << endl;
             cout << "Enter 2 to view list of customers" << endl;
